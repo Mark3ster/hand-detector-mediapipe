@@ -1,38 +1,30 @@
-# 🖐️ Detector de Manos con MediaPipe
+# 🖐️ Hand Detector using MediaPipe 
 
-Proyecto en Python que utiliza OpenCV y MediaPipe para:
+Python Proyect using OpenCV and MediaPipe:
 
-- Detectar hasta 2 manos
-- Contar dedos levantados
-- Dibujar cuadrados cuando ambos índices están levantados
-- Mostrar una imagen especial cuando hay un índice y un meñique levantados
+- Detects 2 hands
+- Fingers raised counter
+- Draws shapes (squares) when both index fingers are raised
+- Shows an image when index finger and little finger are raised at the same time
 
 ---
 
-##  Requisitos
+##  Requirements
 
 Python 3.8+
 
-Instalar dependencias:
+Install dependencies:
 
 pip install -r requirements.txt
 
 ---
 
-##  Ejecutar
+##  How to use
 
-python main.py
-
----
-
-##  Controles
-
-- Presiona `q` → salir
-- Presiona `c` → limpiar cuadrados
+- `q` → exit
+- `c` → clear shapes
 
 ---
-
-##  Tecnologías
 
 - OpenCV
 - MediaPipe
